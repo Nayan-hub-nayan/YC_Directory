@@ -37,6 +37,20 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 
 
+## lets start building
+
+
+for Authentication Next Authjs
+
 ## for Authentication
 
  npm install next-auth@beta
+
+ ## tailwid css copy paste
+
+ then       npm install @tailwindcss/typography    
+             npm install tailwindcss-animate
+
+
+## install other ui dependancy
+npm install @radix-ui/react-slot@^1.1.1 \

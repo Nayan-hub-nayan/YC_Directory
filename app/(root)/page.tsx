@@ -35,7 +35,7 @@ export default async function Home({searchParams}: {
   //   }]
   return (
     <div >
-       <section className='pink_container'>
+       <section className='pink_container '>
           <h1 className='heading'>Pich Your Startup, <br/>
           Connect With Enterpreneurs</h1>
 
@@ -57,7 +57,7 @@ export default async function Home({searchParams}: {
               ))
             
             ):(
-              <p className="no-results ">No startups found</p>
+              <p className="no-results  ">No startups found</p>
             )}
               
             </ul> 
