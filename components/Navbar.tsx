@@ -8,7 +8,7 @@ import { auth, signOut, signIn } from "@/auth";
 
 const Navbar = async () => {
   const session = await auth(); // Fetch session on the server side.
-  console.log('session = ',session)
+  console.log('session = ',session?.id)
 
   return (
     <header className="px-5 py-3 bg-white shadow-sm font-work-sans">
@@ -20,7 +20,7 @@ const Navbar = async () => {
         <div className="flex items-center gap-5 text-black">
           {session && session?.user ? (
             <>
-              <Link href="create">
+              <Link href="/create">
                 <span>Create</span>
               </Link>
 

@@ -69,9 +69,9 @@ const Page= async ({params}:{params: Promise<{ id: string }>}) => {
                             <p className='no-result'>No details Provided</p>
                         )
                     }
-                    
-
+                
                 </div>
+                
                 <hr className='divider' />
 
                 {/* TOOO: EDITIO SELECTED STARTUP */}
